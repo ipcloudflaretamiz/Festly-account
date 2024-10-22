@@ -6,8 +6,8 @@
 </head>
 <body>
 <pre><code
-<pre><code class="language-bash">https://www.mohmal.com/fa</code></pre>
-<pre><code class="language-bash">https://kitset.ir/technology/random-password-generator/code></pre>
+<pre><code class="language-bash">www.mohmal.com</code></pre>
+<pre><code class="language-bash">kitset.ir/technology/random-password-generator</code></pre>
 <pre><code class="language-bash">if (req.http.Upgrade) {
   return (upgrade);
 }</code></pre>
