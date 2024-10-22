@@ -7,5 +7,21 @@
 <pre><code class="language-bash">if (req.http.Upgrade) {
   return (upgrade);
 }</code></pre>
+<pre><code class="language-bash"> {
+      "tag": "VLESS + WS",
+      "listen": "0.0.0.0",
+      "port": 2000,
+      "protocol": "vless",
+      "settings": {
+        "clients": [],
+        "decryption": "none"
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {},
+        "security": "none"
+      }
+    },
+</code></pre>
 </body>
 </html>
