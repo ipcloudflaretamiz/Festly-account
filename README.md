@@ -1,16 +1,11 @@
-<div>
-  <button class="btn" onclick="copyToClipboard()">کپی کردن</button>
-</div>
-<pre><code>کد vcl فستلی</code></pre>
-
-<script>
-  function copyToClipboard() {
-    const el = document.createElement('textarea');
-    el.value = 'کد vcl فستلی';
-    document.body.appendChild(el);
-    el.select();
-    document.execCommand('copy');
-    document.body.removeChild(el);
-    alert('متن کپی شد!');
-  }
-</script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<button class="btn" onclick="copyToClipboard()">کپی کردن</button>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<pre><code class="language-bash">atrapalotickets.com</code></pre>
+</body>
+</html>
