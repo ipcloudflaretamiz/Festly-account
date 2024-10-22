@@ -1,16 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.8/clipboard.min.js"></script>
-</head>
-<body>
-<button class="btn" data-clipboard-target="#code">کپی کردن</button>
-<pre><code id="code" class="language-bash">atrapalotickets.com</code></pre>
+<div>
+  <button class="btn" onclick="copyToClipboard()">کپی کردن</button>
+</div>
+<pre><code>کد vcl فستلی</code></pre>
 
 <script>
-    var clipboard = new ClipboardJS('.btn');
+  function copyToClipboard() {
+    const el = document.createElement('textarea');
+    el.value = 'کد vcl فستلی';
+    document.body.appendChild(el);
+    el.select();
+    document.execCommand('copy');
+    document.body.removeChild(el);
+    alert('متن کپی شد!');
+  }
 </script>
-</body>
-</html>
